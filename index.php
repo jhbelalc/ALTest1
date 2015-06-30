@@ -244,8 +244,8 @@ if ($_POST["btnsub"]){
                             </td>
                             <td>
                                 <div class="dropdown" >
-                                    <label style="font-size: x-small;  color: whitesmoke">Search by:
-                                        <select id="selectsearch" name="selectsearch" style="font-size: x-large" onchange="asignSearch();location.reload(true);">
+                                    <label style="font-size: small;  color: whitesmoke">Search by:
+                                        <select id="selectsearch" name="selectsearch" style="font-size: large; color: black" onchange="asignSearch();location.reload(true);">
                                             <option <?php if($selsearch==1) echo 'selected '; ?>value="1">Actor</option>
                                             <option <?php if($selsearch==2) echo 'selected '; ?>value="2">Movie</option>
                                         </select>
